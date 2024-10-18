@@ -1,0 +1,127 @@
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+}
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+}
+  body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* 使主体内容至少占满整个视口高度 */
+            font-family: Arial, sans-serif;
+            margin: 0;
+			
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: transform 0.3s;
+        }
+        nav a:hover {
+            transform: scale(1.2);
+        }
+        main {
+            flex: 1; /* 使主内容区扩展以填充剩余空间 */
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
